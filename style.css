@@ -832,3 +832,129 @@ nav a {
     font-size: clamp(42px, 13vw, 60px) !important;
   }
 }
+/* Final mobile refinement */
+
+@media (max-width: 700px) {
+  body {
+    overflow-x: hidden !important;
+  }
+
+  .site-header {
+    height: auto !important;
+    padding: 18px 6vw !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 14px !important;
+  }
+
+  .logo {
+    font-size: 15px !important;
+    letter-spacing: 0.12em !important;
+  }
+
+  nav {
+    gap: 18px !important;
+    flex-wrap: wrap !important;
+  }
+
+  nav a {
+    font-size: 13px !important;
+  }
+
+  .hero {
+    grid-template-columns: 1fr !important;
+    padding: 130px 6vw 76px !important;
+    gap: 44px !important;
+    min-height: auto !important;
+  }
+
+  .hero h1 {
+    font-size: clamp(42px, 14vw, 62px) !important;
+    line-height: 0.98 !important;
+    letter-spacing: -0.055em !important;
+    max-width: 100% !important;
+  }
+
+  .hero-text {
+    font-size: 16px !important;
+    line-height: 1.7 !important;
+    max-width: 100% !important;
+  }
+
+  .button {
+    font-size: 12px !important;
+    padding: 13px 18px !important;
+  }
+
+  .hero-visual {
+    max-width: 100% !important;
+    margin-top: 10px !important;
+  }
+
+  .section {
+    padding: 78px 6vw !important;
+  }
+
+  .section-title {
+    margin-bottom: 36px !important;
+  }
+
+  .section-title p {
+    font-size: 12px !important;
+  }
+
+  h2 {
+    font-size: clamp(40px, 13vw, 58px) !important;
+    line-height: 1 !important;
+  }
+
+  .grid {
+    grid-template-columns: 1fr !important;
+    gap: 64px !important;
+  }
+
+  .card h3 {
+    font-size: 22px !important;
+  }
+
+  .card p {
+    font-size: 15px !important;
+    line-height: 1.7 !important;
+  }
+
+  .about-layout {
+    grid-template-columns: 1fr !important;
+    gap: 48px !important;
+  }
+
+  .about-main p {
+    font-size: 18px !important;
+    line-height: 1.6 !important;
+    letter-spacing: -0.015em !important;
+  }
+
+  .about-details strong {
+    font-size: 15px !important;
+  }
+
+  .contact p {
+    font-size: 17px !important;
+    line-height: 1.6 !important;
+  }
+
+  .contact-link {
+    grid-template-columns: 1fr !important;
+    gap: 8px !important;
+    padding: 20px 0 !important;
+  }
+
+  .contact-link strong {
+    font-size: 18px !important;
+    word-break: break-word !important;
+  }
+
+  footer {
+    padding: 34px 6vw !important;
+    font-size: 13px !important;
+  }
+}
