@@ -1145,3 +1145,37 @@ nav a {
     text-align: left !important;
   }
 }
+/* Project gallery series */
+
+.project-gallery-series {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 96px !important;
+}
+
+.project-gallery-series .project-image-block {
+  max-width: 1200px !important;
+}
+
+.project-gallery-series .project-image-block:nth-child(even) {
+  max-width: 980px !important;
+  margin-left: auto !important;
+}
+
+.project-gallery-series .project-image-block:nth-child(odd) {
+  margin-right: auto !important;
+}
+
+@media (max-width: 700px) {
+  .project-gallery-series {
+    gap: 64px !important;
+  }
+
+  .project-gallery-series .project-image-block,
+  .project-gallery-series .project-image-block:nth-child(even),
+  .project-gallery-series .project-image-block:nth-child(odd) {
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
