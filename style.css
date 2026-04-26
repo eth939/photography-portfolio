@@ -465,3 +465,61 @@ nav a {
     margin-top: 48px !important;
   }
 }
+/* Mobile refinement */
+
+@media (max-width: 700px) {
+  .site-header {
+    height: auto !important;
+    padding: 20px 6vw !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 16px !important;
+  }
+
+  nav {
+    gap: 20px !important;
+    flex-wrap: wrap !important;
+  }
+
+  nav a {
+    font-size: 13px !important;
+  }
+
+  .hero {
+    padding: 130px 6vw 72px !important;
+    gap: 42px !important;
+  }
+
+  .hero h1 {
+    font-size: clamp(44px, 15vw, 64px) !important;
+    line-height: 0.98 !important;
+    letter-spacing: -0.055em !important;
+  }
+
+  .hero-text {
+    font-size: 16px !important;
+    line-height: 1.7 !important;
+  }
+
+  .hero-visual {
+    margin-top: 20px !important;
+  }
+
+  .section {
+    padding: 82px 6vw !important;
+  }
+
+  h2 {
+    font-size: clamp(38px, 13vw, 58px) !important;
+  }
+
+  .grid {
+    grid-template-columns: 1fr !important;
+    gap: 64px !important;
+  }
+
+  .card p {
+    font-size: 15px !important;
+    line-height: 1.7 !important;
+  }
+}
