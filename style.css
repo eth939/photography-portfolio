@@ -1024,3 +1024,18 @@ nav a {
     padding-bottom: 82px !important;
   }
 }
+/* Clickable portfolio cards */
+
+.portfolio-card-link {
+  display: block !important;
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.portfolio-card-link:hover .portfolio-image {
+  opacity: 0.82 !important;
+}
+
+.portfolio-card-link:hover h3 {
+  opacity: 0.72 !important;
+}
