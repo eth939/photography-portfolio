@@ -1065,3 +1065,43 @@ nav a {
     gap: 18px !important;
   }
 }
+/* More spacious project navigation */
+
+.project-nav-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 32px !important;
+  align-items: center !important;
+  max-width: 980px !important;
+}
+
+.project-nav-grid a {
+  width: fit-content !important;
+  font-size: 13px !important;
+  letter-spacing: 0.14em !important;
+  white-space: nowrap !important;
+}
+
+.project-nav-grid a:nth-child(1) {
+  justify-self: start !important;
+}
+
+.project-nav-grid a:nth-child(2) {
+  justify-self: center !important;
+}
+
+.project-nav-grid a:nth-child(3) {
+  justify-self: end !important;
+}
+
+@media (max-width: 700px) {
+  .project-nav-grid {
+    grid-template-columns: 1fr !important;
+    gap: 22px !important;
+  }
+
+  .project-nav-grid a {
+    justify-self: start !important;
+    white-space: normal !important;
+  }
+}
