@@ -1,190 +1,161 @@
 document.addEventListener("DOMContentLoaded", () => {
   const heroSlides = [
-    // Architecture
-    {
-      src: "images/architecture-01.jpg",
-      alt: "Architecture photography by Yuan Liu",
-      caption: "Architecture / Space, structure and atmosphere"
-    },
-    {
-      src: "images/architecture-02.jpg",
-      alt: "Architecture photography by Yuan Liu",
-      caption: "Architecture / Urban form and spatial silence"
-    },
-    {
-      src: "images/architecture-03.jpg",
-      alt: "Architecture photography by Yuan Liu",
-      caption: "Architecture / Lines, surfaces and distance"
-    },
-    {
-      src: "images/architecture-04.jpg",
-      alt: "Architecture photography by Yuan Liu",
-      caption: "Architecture / Structure as visual rhythm"
-    },
-    {
-      src: "images/architecture-05.jpg",
-      alt: "Architecture photography by Yuan Liu",
-      caption: "Architecture / Light, material and constructed space"
-    },
-    {
-      src: "images/architecture-06.jpg",
-      alt: "Architecture photography by Yuan Liu",
-      caption: "Architecture / Geometry, atmosphere and restraint"
-    },
-    {
-      src: "images/architecture-07.jpg",
-      alt: "Architecture photography by Yuan Liu",
-      caption: "Architecture / Architectural surface and urban quietness"
-    },
-    {
-      src: "images/architecture-08.jpg",
-      alt: "Architecture photography by Yuan Liu",
-      caption: "Architecture / Form, shadow and spatial order"
-    },
-    {
-      src: "images/architecture-09.jpg",
-      alt: "Architecture photography by Yuan Liu",
-      caption: "Architecture / Built space as silent composition"
-    },
-    {
-      src: "images/architecture-10.jpg",
-      alt: "Architecture photography by Yuan Liu",
-      caption: "Architecture / Structure, distance and visual calm"
-    },
-
-    // Street
-    {
-      src: "images/street-01.jpg",
-      alt: "Street photography by Yuan Liu",
-      caption: "Street / Urban observation and public life"
-    },
-    {
-      src: "images/street-02.jpg",
-      alt: "Street photography by Yuan Liu",
-      caption: "Street / Movement, reflection and public space"
-    },
-    {
-      src: "images/street-03.jpg",
-      alt: "Street photography by Yuan Liu",
-      caption: "Street / Fragments of city life"
-    },
-    {
-      src: "images/street-04.jpg",
-      alt: "Street photography by Yuan Liu",
-      caption: "Street / Distance, rhythm and human traces"
-    },
-    {
-      src: "images/street-05.jpg",
-      alt: "Street photography by Yuan Liu",
-      caption: "Street / Passing moments and urban surfaces"
-    },
-    {
-      src: "images/street-06.jpg",
-      alt: "Street photography by Yuan Liu",
-      caption: "Street / Light, shadow and the movement of the city"
-    },
-    {
-      src: "images/street-07.jpg",
-      alt: "Street photography by Yuan Liu",
-      caption: "Street / Anonymous figures in public space"
-    },
-    {
-      src: "images/street-08.jpg",
-      alt: "Street photography by Yuan Liu",
-      caption: "Street / Urban rhythm and visual fragments"
-    },
-    {
-      src: "images/street-09.jpg",
-      alt: "Street photography by Yuan Liu",
-      caption: "Street / Quiet tension in everyday scenes"
-    },
-    {
-      src: "images/street-10-fixed.jpg",
-      alt: "Street photography by Yuan Liu",
-      caption: "Street / Presence, distance and observation"
-    },
-    {
-      src: "images/street-11.jpg",
-      alt: "Street photography by Yuan Liu",
-      caption: "Street / Traces of movement through the city"
-    },
-    {
-      src: "images/street-12.jpg",
-      alt: "Street photography by Yuan Liu",
-      caption: "Street / Street as image, atmosphere and memory"
-    },
-    {
-      src: "images/street-13.jpg",
-      alt: "Street photography by Yuan Liu",
-      caption: "Street / Public life, silence and passing time"
-    },
-
-    // Portrait
-    {
-      src: "images/portrait-01.jpg",
-      alt: "Portrait photography by Yuan Liu",
-      caption: "Portrait / Presence, character and restraint"
-    },
-    {
-      src: "images/portrait-02.jpg",
-      alt: "Portrait photography by Yuan Liu",
-      caption: "Portrait / Quiet presence and direct attention"
-    },
-    {
-      src: "images/portrait-03.jpg",
-      alt: "Portrait photography by Yuan Liu",
-      caption: "Portrait / Character, silence and distance"
-    },
-    {
-      src: "images/portrait-04.jpg",
-      alt: "Portrait photography by Yuan Liu",
-      caption: "Portrait / Faces, gestures and restrained emotion"
-    },
-    {
-      src: "images/portrait-05.jpg",
-      alt: "Portrait photography by Yuan Liu",
-      caption: "Portrait / Human presence in quiet light"
-    },
-    {
-      src: "images/portrait-06.jpg",
-      alt: "Portrait photography by Yuan Liu",
-      caption: "Portrait / Stillness, expression and proximity"
-    },
-    {
-      src: "images/portrait-07.jpg",
-      alt: "Portrait photography by Yuan Liu",
-      caption: "Portrait / Subtle emotion and visual restraint"
-    },
-    {
-      src: "images/portrait-08.jpg",
-      alt: "Portrait photography by Yuan Liu",
-      caption: "Portrait / Direct gaze and inner quietness"
-    },
-    {
-      src: "images/portrait-09.jpg",
-      alt: "Portrait photography by Yuan Liu",
-      caption: "Portrait / Gesture, surface and psychological distance"
-    },
-    {
-      src: "images/portrait-10.jpg",
-      alt: "Portrait photography by Yuan Liu",
-      caption: "Portrait / Human form in still atmosphere"
-    },
-    {
-      src: "images/portrait-11.jpg",
-      alt: "Portrait photography by Yuan Liu",
-      caption: "Portrait / Quiet observation through portraiture"
-    },
-    {
-      src: "images/portrait-12.jpg",
-      alt: "Portrait photography by Yuan Liu",
-      caption: "Portrait / Presence, sensitivity and distance"
-    },
-    {
-      src: "images/portrait-13.jpg",
-      alt: "Portrait photography by Yuan Liu",
-      caption: "Portrait / Portrait as atmosphere and encounter"
-    }
+  {
+    src: "images/slider-01.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-02.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-03.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-04.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-05.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-06.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-07.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-08.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-09.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-10.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-11.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-12.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-13.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-14.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-15.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-16.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-17.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-18.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-19.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-20.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-21.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-22.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-23.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-24.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-25.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-26.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-27.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-28.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-29.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-30.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  },
+  {
+    src: "images/slider-31.jpg",
+    alt: "Photography by Yuan Liu",
+    caption: "Selected Work / Yuan Liu Studio"
+  }
+];
   ];
 
  const heroImage = document.getElementById("heroImage");
