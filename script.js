@@ -190,12 +190,16 @@ document.addEventListener("DOMContentLoaded", () => {
   const heroImage = document.getElementById("heroImage");
   const heroCaption = document.getElementById("heroCaption");
   const heroNext = document.querySelector(".hero-next");
+  const heroCounter = document.getElementById("heroCounter");
 
   if (!heroImage || !heroCaption || !heroNext) {
     return;
   }
 
   let currentSlide = 0;
+  if (heroCounter) {
+  heroCounter.textContent = `01 / ${String(heroSlides.length).padStart(2, "0")}`;
+}
 
   function showSlide(index) {
     const slide = heroSlides[index];
@@ -206,7 +210,12 @@ document.addEventListener("DOMContentLoaded", () => {
       heroImage.src = slide.src;
       heroImage.alt = slide.alt;
       heroCaption.textContent = slide.caption;
-      heroImage.classList.remove("is-fading");
+
+if (heroCounter) {
+  heroCounter.textContent = `${String(index + 1).padStart(2, "0")} / ${String(heroSlides.length).padStart(2, "0")}`;
+}
+
+heroImage.classList.remove("is-fading");
     }, 180);
   }
 
