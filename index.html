@@ -47,9 +47,22 @@
     <a class="button" href="#portfolio">View Portfolio</a>
   </div>
 
-  <figure class="hero-visual">
-    <img src="images/architecture-01.jpg" alt="Architecture photography by Yuan Liu">
-  </figure>
+  <figure class="hero-visual hero-slider" aria-label="Selected photography slideshow">
+  <img
+    id="heroImage"
+    src="images/architecture-01.jpg"
+    alt="Architecture photography by Yuan Liu"
+  >
+
+  <figcaption id="heroCaption" class="hero-caption">
+    Architecture / Space, structure and atmosphere
+  </figcaption>
+
+  <button class="hero-next" type="button" aria-label="View next image">
+    <span>Next</span>
+    <span aria-hidden="true">→</span>
+  </button>
+</figure>
 </section>
 
     <section id="portfolio" class="section">
