@@ -1260,3 +1260,25 @@ nav a {
     font-size: 11px !important;
   }
 }
+/* Hero image counter */
+
+.hero-counter {
+  position: absolute !important;
+  left: 18px !important;
+  bottom: 52px !important;
+  padding: 10px 12px !important;
+  background: rgba(11, 11, 11, 0.52) !important;
+  backdrop-filter: blur(10px) !important;
+  color: #d8d8d8 !important;
+  font-size: 12px !important;
+  letter-spacing: 0.14em !important;
+  border: 1px solid rgba(255, 255, 255, 0.22) !important;
+}
+
+@media (max-width: 700px) {
+  .hero-counter {
+    left: 14px !important;
+    bottom: 46px !important;
+    font-size: 11px !important;
+  }
+}
