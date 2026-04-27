@@ -1198,3 +1198,65 @@ nav a {
   opacity: 1 !important;
   transform: translateX(4px) !important;
 }
+/* Hero image slider */
+
+.hero-slider {
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.hero-slider img {
+  width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  transition: opacity 0.28s ease !important;
+}
+
+.hero-slider img.is-fading {
+  opacity: 0 !important;
+}
+
+.hero-caption {
+  margin-top: 14px !important;
+  color: #9a9a9a !important;
+  font-size: 12px !important;
+  letter-spacing: 0.14em !important;
+  text-transform: uppercase !important;
+}
+
+.hero-next {
+  position: absolute !important;
+  right: 18px !important;
+  bottom: 52px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  padding: 11px 14px !important;
+  border: 1px solid rgba(255, 255, 255, 0.55) !important;
+  background: rgba(11, 11, 11, 0.62) !important;
+  color: #f5f5f5 !important;
+  backdrop-filter: blur(10px) !important;
+  font-size: 12px !important;
+  letter-spacing: 0.14em !important;
+  text-transform: uppercase !important;
+  cursor: pointer !important;
+  transition: opacity 0.2s ease, transform 0.2s ease, background 0.2s ease !important;
+}
+
+.hero-next:hover {
+  opacity: 1 !important;
+  transform: translateX(3px) !important;
+  background: rgba(245, 245, 245, 0.12) !important;
+}
+
+@media (max-width: 700px) {
+  .hero-next {
+    right: 14px !important;
+    bottom: 46px !important;
+    padding: 10px 13px !important;
+  }
+
+  .hero-caption {
+    font-size: 11px !important;
+  }
+}
