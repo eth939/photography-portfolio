@@ -1303,3 +1303,242 @@ nav a {
 .about-details div:has(span) strong {
   word-break: normal !important;
 }
+/* Final mobile polish */
+
+@media (max-width: 700px) {
+  body {
+    overflow-x: hidden !important;
+  }
+
+  .site-header {
+    position: sticky !important;
+    top: 0 !important;
+    height: auto !important;
+    padding: 18px 6vw !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 16px !important;
+  }
+
+  .logo {
+    font-size: 14px !important;
+    letter-spacing: 0.13em !important;
+    white-space: nowrap !important;
+  }
+
+  nav {
+    gap: 14px !important;
+    flex-wrap: nowrap !important;
+  }
+
+  nav a {
+    font-size: 12px !important;
+  }
+
+  .hero {
+    grid-template-columns: 1fr !important;
+    padding: 92px 6vw 78px !important;
+    gap: 44px !important;
+    min-height: auto !important;
+  }
+
+  .eyebrow {
+    font-size: 11px !important;
+    letter-spacing: 0.15em !important;
+    margin-bottom: 18px !important;
+  }
+
+  .hero h1 {
+    font-size: clamp(44px, 15vw, 64px) !important;
+    line-height: 0.98 !important;
+    letter-spacing: -0.055em !important;
+    max-width: 100% !important;
+    margin-bottom: 28px !important;
+  }
+
+  .hero-text {
+    font-size: 16px !important;
+    line-height: 1.7 !important;
+    max-width: 100% !important;
+    margin-bottom: 32px !important;
+  }
+
+  .button {
+    font-size: 12px !important;
+    padding: 13px 18px !important;
+  }
+
+  .hero-visual {
+    max-width: 100% !important;
+    margin-top: 4px !important;
+  }
+
+  .hero-caption {
+    font-size: 10px !important;
+    line-height: 1.5 !important;
+    margin-top: 12px !important;
+  }
+
+  .hero-counter {
+    left: 12px !important;
+    bottom: 44px !important;
+    font-size: 10px !important;
+    padding: 8px 10px !important;
+  }
+
+  .hero-next {
+    right: 12px !important;
+    bottom: 44px !important;
+    font-size: 10px !important;
+    padding: 8px 11px !important;
+  }
+
+  .section {
+    padding: 78px 6vw !important;
+  }
+
+  .section-title {
+    margin-bottom: 38px !important;
+  }
+
+  .section-title p {
+    font-size: 11px !important;
+    letter-spacing: 0.16em !important;
+  }
+
+  h2 {
+    font-size: clamp(40px, 14vw, 58px) !important;
+    line-height: 1 !important;
+  }
+
+  .grid {
+    grid-template-columns: 1fr !important;
+    gap: 68px !important;
+  }
+
+  .portfolio-image {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .card h3 {
+    font-size: 22px !important;
+    margin-bottom: 12px !important;
+  }
+
+  .card p {
+    font-size: 15px !important;
+    line-height: 1.7 !important;
+  }
+
+  .card-action {
+    font-size: 11px !important;
+    margin-top: 18px !important;
+  }
+
+  .about-layout {
+    grid-template-columns: 1fr !important;
+    gap: 52px !important;
+  }
+
+  .about-main p {
+    font-size: 18px !important;
+    line-height: 1.62 !important;
+    letter-spacing: -0.015em !important;
+    margin-bottom: 24px !important;
+  }
+
+  .about-details div {
+    padding: 20px 0 !important;
+  }
+
+  .about-details span {
+    font-size: 11px !important;
+  }
+
+  .about-details strong {
+    font-size: 15px !important;
+    line-height: 1.55 !important;
+  }
+
+  .contact p {
+    font-size: 17px !important;
+    line-height: 1.65 !important;
+  }
+
+  .contact-links {
+    margin-top: 32px !important;
+  }
+
+  .contact-link {
+    grid-template-columns: 1fr !important;
+    gap: 8px !important;
+    padding: 20px 0 !important;
+  }
+
+  .contact-link span {
+    font-size: 11px !important;
+  }
+
+  .contact-link strong {
+    font-size: 17px !important;
+    word-break: break-word !important;
+  }
+
+  .project-hero {
+    padding: 116px 6vw 56px !important;
+  }
+
+  .project-hero h1 {
+    font-size: clamp(52px, 17vw, 82px) !important;
+  }
+
+  .project-hero p {
+    font-size: 16px !important;
+    line-height: 1.7 !important;
+  }
+
+  .project-gallery {
+    padding: 0 6vw 82px !important;
+  }
+
+  .project-gallery-series {
+    gap: 70px !important;
+  }
+
+  .project-image-block figcaption {
+    flex-direction: column !important;
+    gap: 8px !important;
+    margin-top: 14px !important;
+  }
+
+  .project-image-block figcaption span {
+    font-size: 11px !important;
+  }
+
+  .project-image-block figcaption strong {
+    text-align: left !important;
+    font-size: 14px !important;
+  }
+
+  .project-nav {
+    padding: 0 6vw 82px !important;
+  }
+
+  .project-nav-grid {
+    grid-template-columns: 1fr !important;
+    gap: 22px !important;
+  }
+
+  .project-nav-grid a {
+    justify-self: start !important;
+    font-size: 12px !important;
+    white-space: normal !important;
+  }
+
+  footer {
+    padding: 34px 6vw !important;
+    font-size: 13px !important;
+  }
+}
